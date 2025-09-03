@@ -1,0 +1,253 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Montserrat, sans-serif;
+}
+.header h2 {
+  background: black;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px;
+  justify-content: flex-start; 
+  align-items: flex-start;
+  flex-wrap: wrap; 
+  margin: auto;
+  padding: 10px 20px;
+}
+.logo  {
+  height: 10px;
+  width:5%;
+  
+}
+.img{
+  height: 10px;
+  width: 20%;
+}
+.nav {
+  display: flex;              
+  align-items: center;        
+  justify-content: space-between; 
+  max-width: 1200px;
+  margin: 70px;
+  padding: 10px 20px;
+  text-align: left;
+}
+.nav_link {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 45px 25px;
+  flex-wrap: wrap;
+  text-align: left;
+  padding: 10px 15px;
+  margin: 6px;
+  
+}
+
+.nav_link li {
+  position: relative;
+
+}
+
+.nav_link a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 20px 10px;
+  transition: color 0.3s;
+  border-bottom: 30px;
+ 
+}
+
+.nav_link a:hover {
+  color: #f4b400;
+  
+}
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: white;
+  list-style: none;
+  display: none;
+  flex-direction: column;
+  min-width: 180px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+
+  
+}
+
+.dropdown-menu li a {
+  padding: 10px 15px;
+  display: block;
+  color: black;
+  
+  
+}
+
+.dropdown-menu li a:hover {
+  background-color: #f5f5f5;
+   color: #f4b400;
+  
+}
+
+.dropdown:hover .dropdown-menu {
+  display: flex;
+  
+  
+}
+.top-menu {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.bottom-menu {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin-right: 690px; 
+  margin-top: -15px;  
+  padding: 0;
+}
+
+.nav_links {
+  display: flex;
+  flex-direction: row; 
+  align-items: last baseline;    
+  gap: 20px;     
+padding: 12px 255px  12px ; 
+}
+
+.nav_links a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+  transition: color 0.3s;
+  padding: 5px 10px; 
+}
+.image {
+  display: block;
+  margin: 0 auto;       
+  width: auto;         
+  max-width: 1100px;    
+  height: auto;          
+  object-fit: cover;     
+}
+.text{
+  font-family: "Playfair Display", serif;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 1.2;       
+  text-align: center;
+  color: rgb(0, 153, 114);
+  display: block;
+  padding: 10px;
+}
+.p {
+  font-family: "Playfair Display", serif;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 1.2;       
+  text-align: center;
+  color: rgb(0, 153, 114);
+  display: block;
+}
+.sweet1 {
+  display: flex;
+  justify-content: center; 
+  gap: 25px;                
+  flex-wrap: wrap;         
+}
+
+.sweet1 .item {
+  text-align: center;
+  width: 180px;             
+}
+
+.sweet1 img {
+  width: 180px;    
+  border: 10px; 
+  object-fit: contain; 
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+
+.sweet1 p {
+  font-size: 16px;
+  font-weight: 500;
+background-color:rgb(255, 255, 255);
+box-sizing:border-box;
+color:rgb(88, 90, 103);
+display:block;
+font-family:Montserrat, sans-serif;
+font-size:16px;
+font-weight:600;
+}
+.star {
+  align-items: flex;
+  text-align: left;
+}
+
+.text1{
+  font-family: "Playfair Display", serif;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 1.2;       
+  text-align: center;
+  color: rgb(0, 153, 114);
+  display: block;
+  padding: 10px;
+}
+.sweet2 {
+  display: flex;
+  justify-content: center; 
+  gap: 25px;                
+  flex-wrap: wrap;         
+}
+
+.sweet2 .item {
+  text-align: center;
+  width: 180px;             
+}
+
+.sweet2 img {
+  width: 180px;    
+  border: 10px; 
+  object-fit: contain; 
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+
+.sweet2 p {
+  font-size: 16px;
+  font-weight: 500;
+background-color:rgb(255, 255, 255);
+box-sizing:border-box;
+color:rgb(88, 90, 103);
+display:block;
+font-family:Montserrat, sans-serif;
+font-size:16px;
+font-weight:600;
+}
+.sweet3 {
+background-attachment:scroll;
+background-clip:border-box;
+background-color:rgb(255, 109, 109);
+display:block;
+font-family:Mont serrat, sans-serif;
+font-size:15px;
+}
